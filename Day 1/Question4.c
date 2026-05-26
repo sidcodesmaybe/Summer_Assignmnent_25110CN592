@@ -1,0 +1,13 @@
+//Write a program to Count digits in a number. 
+#include<stdio.h>
+int main(){
+    int n,c=0;
+    printf("EnterN");
+    scanf("%d",&n);
+    while(n>0){
+        n=n/10;
+        c++;
+    }
+    printf("The number of digits is:%d",c);
+    return 0;
+}
